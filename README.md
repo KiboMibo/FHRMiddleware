@@ -6,7 +6,7 @@ Simple chain middleware for fasthttp and fasthttp Router
 go get github.com/KiboMibo/FHRMiddleware
 ```
 
-##Fast example
+## Fast example
 ```go
 
 import middleware "github.com/KiboMibo/FHRMiddleware"
@@ -23,13 +23,13 @@ func main() {
 
 more [examples](https://github.com/KiboMibo/FHRMiddleware/examples)
 
-##Defaults
+## Defaults
 
 By default includes logger and recovery middlewares
 
 CORS is enabled by default but with default options.
 
-##Customize
+## Customize
 
 Set logger at your own.
 
